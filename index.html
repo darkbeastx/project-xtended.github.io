@@ -1,64 +1,1198 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <title>MSM-XTENDED</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <meta name="description" content="Website for MSM-Xtended ROM">
-        <meta name="author" content="Team-Xtended">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-        <meta name="theme-color" content="#3F51B5">
-</head>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+    	<!-- meta character set -->
+        <meta charset="utf-8">
 
-<body>
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MSM Xtended</title>
 
-<header>
-        <div id="quick_card" class="card">
-                <div><img id="photo" src="pic.png"></div>
-                <h1 id="name">MSM-Xtended</h1>
-                <h2 id="description">An AOSP based customisable ROM tuned for OnePlus devices</h2>
-        </div>
-</header>
+		<!-- Meta Description -->
+        <meta name="description" content="">
+        <meta name="keywords" content="Xtended, ROM, MSM Xtended, xtended, msm xtended, msm, pie, 9.0, google pixel 2 xl, XDA, xda, india, oneplus , motorola ">
+        <meta name="author" content="">
 
-<main>
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="navbar">
-  <a href="#home">About</a>
-  <a href="#news">Features</a>
-  <a href="#contact">Download</a>
-</div>
+		<!-- Logo -->
+		<link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+		<link rel="icon" href="img/icons/favicon.png" type="image/x-icon">
 
-<div id="about_card" class="card">
+		<!-- CSS
+		================================================== -->
+		<!-- font awesome -->
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/fontawesome.min.css">
 
-        <section class="tab">
-                <div class="title">Downloads</div>
-                <div class="content">
-                        <section class="element">
-                                <div class="name"><a href="https://androidfilehost.com/?w=files&flid=252432"><img src="https://androidfilehost.com/images/afh.png" height="35px"></a></div>
-                                <div class="info">Get our latest builds there</div>
-                        </section>
+		<!-- jquery -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- slider -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- animate -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <style type="text/css">
+        	#team{
+        		font-family: 'Ubuntu', sans-serif;
+        		color: white;
+        	}
+        </style>
+
+    </head>
+
+    <body id="body">
+
+		<!-- preloader -->
+		<div id="preloader">
+            <div class="loder-box">
+            	<div class="battery"></div>
+            </div>
+		</div>
+		<!-- end preloader -->
+
+        <!-- Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+
+					<!-- logo -->
+					<img style="float:left;" src="img/icons/favicon.png" width=50px height=50px />
+					<h1 class="navbar-brand">
+						<a href="#body">MSM Xtended</a>
+					</h1>
+					<!-- /logo -->
                 </div>
-        </section>
-</div>
 
-<div id="contact_card" class="card">
-        <section class="tab">
-                <div class="title">Contact</div>
-                <div class="content">
-                        <div class="contacts">
-                         <a href="https://t.me/XtendedOfficial" target="_blank">
-                                 <img class="vertical-align-middle padding-bottom-4" height="30px" src="https://image.flaticon.com/icons/png/512/408/408788.png"                                      onmouseover="this.src='https://image.flaticon.com/icons/png/512/408/408788.png';">
-                        Telegram</a></div>
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="#body">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Features</a></li>
+                        <li><a href="#portfolio">Download</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a style="cursor:pointer;" onclick="location.href='blog/index.html';">Blog</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+            </div>
+        </header>
+
+       <!-- End Fixed Navigation
+        ==================================== -->
+
+		<main class="site-content" role="main">
+
+        <!--
+        Home Slider
+        ==================================== -->
+
+		<section id="home-slider">
+			<div id="slider" class="sl-slider-wrapper">
+				<div class="bg-img bg-img-1"></div>
+				<div class="slide-caption">
+            		<div class="caption-content">
+						<br><br><br><br>
+						<img height="250" width="250" src="img/icons/icon.png" alt="MSM">
+		                <h2 class="animated fadeInDown">MSM Xtended</h2>
+		                <span class="animated fadeInDown" >Clean and Professional one simple custom ROM</span>
+		                <br>
+		                <a href="#portfolio" class="btn btn-blue btn-effect">Download</a>
+		                <br><br><br>
+		                <div></div>
+                	</div>
+      			</div>
+      		</div>
+		</section>
+
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+
+			<!-- about section -->
+
+			<section id="about" >
+				<div class="container">
+					<div class="row">
+						<div class="wow animated fadeInLeft">
+							<div class="recent-works">
+								<br><br><br><br>
+								<h3 style="text-align: center;">About MSM-Xtended</h3>
+								<p style="text-align: center;">We have moved from Cardinal and starting from zero as "MSM Xtended or MSM-X". The Base is GZOSP and thus Special Thanks to @martinusbe & Team GZR for the same. A ROM Based on AOSP, with features from almost all Custom ROMs available without compromising quality or performance. We have tried our best to blend it with all available options, features and stability of different ROMs in to one for better user experience. </p>
+								<br><br><br><br>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- end about section -->
+
+			<!-- Service section -->
+			<section id="service">
+				<div class="container">
+					<div class="row">
+						<div class="sec-title text-center">
+							<h2 class="wow animated bounceInLeft">Features</h2>
+							<p class="wow animated bounceInRight">Some Key Features</p>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fab fa-android fa-3x"></i>
+								</div>
+								<h3>Andriod Pie </h3>
+								<p>Always get the latest of the android source code and security updates </p>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fas fa-cloud-download-alt fa-3x"></i>
+								</div>
+								<h3>OTA Updates </h3>
+								<p>Over-the-Air notifications about new OS version releases for the device </p>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fas fa-battery-full fa-3x"></i>
+								</div>
+								<h3>Battery Friendly </h3>
+								<p>Optimizations done at source code level to keep the OS battery-friendly </p>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+							<div class="service-item">
+								<div class="service-icon">
+								<i class="fas fa-chart-pie fa-3x"></i>
+								</div>
+
+								<h3>All-in-One </h3>
+								<p>One of the most customizable OS out-of-the-box! </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			    <br><br><br>
+                <!-- Button trigger modal -->
+                <div class="text-center">
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-blue btn-effect" data-toggle="modal" data-target="#extendedFeatures">
+                   Extended Feature List
+                   </button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="extendedFeatures" tabindex="-1" role="dialog" aria-labelledby="extendedFeatures" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3 class="modal-title" id="extendedFeatures">Extended Feature List</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <hr>
+                                <div class="modal-body">
+                                    <h4><u>Dialer</u></h4>
+                                    <p>* Post Call Snackbar toggle<br>                                    	
+									   * Full Screen Caller Photo<br>
+                                       * Call Recorder<br>
+                                       * On Call DND Option
+                                    </p><br>
+                                    <h4><u>Display</u></h4>
+                                    <p>* Night light brightness mode options<br>
+									   * Expanded Desktop<br>
+  									   * Screen Stabilization<br>
+									   * 5 Step Display size<br>
+									   * Double Tap To Wake<br>
+									   * Ambient & Always-On Settings<br>
+   									   * Ambient Play Options
+   									</p><br>
+									<h4><u>Settings</u></h4>
+									<p>
+										* Redesigned Battery Meter View<br>
+									 	* Reset battery stats<br>
+										* Screenshot sound toggle<br>
+										* Volume Steps<br>
+										* Increasing Ring Tone<br>
+										* Sim 1 & 2 Ringtone<br>
+										* Quick Unlock<br>
+										* Pass Swipe to Unlock<br>
+									</p> 
+									<h3><=======================================></h3>
+									<h3>Xtended Options (Xtensions of Xtended) Includes</h3>
+									<h3><=======================================></h3>
+									<h4><u>Animation</u></h4>
+									<p>
+										* System Wide Animations (15 Options + Random)<br>
+										* Animation Duration<br>
+										* Disable Transition animations<br>
+										* Scrolling Cache<br>
+										* Screen Off animation<br>
+										* Power menu animation<br>
+										* QS tile animation<br>
+										* Toast Animation<br>
+										* Listview & Interpolator Animations<br>
+									</p>
+									<h4><u>Buttons</u></h4>	
+									<p>
+										* Volume Key Customization<br>
+										* Volume panel on left<br>
+										* Disable Keys<br>
+										* Swap Back n Recent Keys<br>
+										* Backlight + Customizations<br>
+										* Single Press + Long Press + Double Tap Customizations<br>
+										* Accidental Touch<br>
+									</p>
+									<h4><u>Decoration Menu</u></h4>	
+									<p>
+										* System Themes (Compose + 11 Prebuilt themes)<br>
+										* Dashboard icons<br>
+										* QS tile style<br>
+										* QS Header style<br>
+										* QS Header<br>
+										* Battery Bar (Animation, Gradient, etc.)<br>
+										* Battery style<br>
+										* Clock Settings<br>
+										* Carrier Label (Font Style, Size & Color Options)<br>
+										* Status Bar logo<br>
+										* App icon shape<br>
+									</p>
+									<h4><u>Gestures</u></h4>
+									<p>
+										* AOSP Gesture<br>
+										* Gesture Anywhere<br>
+										* Carbon Gesture<br>
+										* Edge gesture<br>
+										* Pie<br>
+										* OnePlus Navigation Gestures<br>
+										* Swipe to screenshot<br>
+										* Status Bar Double Tap Sleep<br>
+										* Lockscreen Double Tap Sleep<br>
+										* Screen off Power Button Torch & TimeOut<br>
+									</p>
+									<h4><u>Lock screen</u></h4>
+									<p>
+										* Lockscreen shortcuts (Left & Right)<br>
+										* Hide Bottom shortcuts<br>
+										* Lockscreen Weather Temp & City Font & Color<br>
+										* Lockscreen Weather Condition Image<br>
+										* Lockscreen UI<br>
+										* Lockscreen notification count<br>
+										* Lockscreen charging info<br>
+										* Face Auto Unlock Toggle<br>
+										* Fingerprint unlock Toggle<br>
+										* Fingerprint authentication vibration<br>
+										* Media cover art<br>
+										* Enable Lockscreen visualizer<br>
+										* Ambient visualizer<br>
+										* Use custom color<br>
+										* Battery bar color<br>
+									</p>
+									<h4><u>Navigation bar</u></h4>
+									<p>
+										* Navbar on/off<br>
+										* Navbar Customization (Layout, extra button)<br>
+										* Navbar Pixel Animation Options<br>
+										* Navbar burn-in Protection<br>
+										* Navbar Pulse Options<br>
+									</p>
+									<h4><u>Notifications</u></h4>
+									<p>
+										* Heads Up<br>
+										* Dialer Only HeadsUp<br>
+										* Battery & Charging Light Customization<br>
+										* Notification Light Customization<br>
+										* Noisy notification<br>
+										* Force expanded Notification<br>
+										* Disable immersive mode Message<br>
+										* Vibrate on connect, answer & hangup toggle<br>
+                                        * Flashlight on Incoming Call<br>
+										* Toast app icon toggle<br>
+										* Toast app icon color<br>
+										* Toast app text color<br>
+									</p>
+									<h4><u>Powermenu</u></h4>
+									<p>
+										* Power/reboot menu opacity<br>
+										* Power/reboot dialog dim background amount<br>
+										* Disable power menu on lockscreen<br>
+										* On-The-Go Toggle (worth mentioning)<br>
+										* Advance Reboot<br>
+										* Several Toggles, can't write so many<br>
+									</p>
+									<h4><u>Quick Settings</u></h4>
+									<p>
+										*QS Panel opacity<br>
+										*QS Tiles Config (Rows & Columns, Portrait & Landscape)<br>
+										* Tile Title<br>
+										* Small tiles Config<br>
+										* Brightness Slider toggle<br>
+										* Bightness icon toggle<br>
+										* Brightness buttons toggle<br>
+										* Brightness slider on bottom toggle<br>
+										* Information header<br>
+										* Disable quick settings when locked<br>
+										* Quick Pulldown<br>
+										* Smart pulldown<br>
+										* Bluetooth Battery on statusbar<br>
+										* Vibrate on touch<br>
+										* Running services icon<br>
+										* QS footer warning<br>
+									</p>
+									<h4><u>Recents Menu</u></h4>
+									<p>
+										* Recent style (Pie/Oreo/Grid/Android Go)<br>
+										* Clear all FAB<br>
+										* Clear all FAB location<br>
+										* Show memory bar<br>
+										* Recents Styles (Animations, Icon, Colors, etc)<br>
+										* Immersive Recents<br>
+										* Immersive Recents Date & Time<br>
+										* Hide Apps from Recents<br>
+									</p>
+									<h4><u>Status bar</u></h4>
+									<p>
+										* Statusbar items<br>
+										* Network Traffic<br>
+										* Use old mobile type style<br>
+										* Ticker<br>
+										* Ticker animation<br>
+										* Ticker duration<br>
+										* Brightness control<br>
+										* 4G icon<br>
+										* VoLTE icon<br>
+										* Roaming indicator<br>
+										* Show data disabled icon<br>
+										* Show notification icon<br>
+										* Kill app button<br>
+										* Breathing Notifications (SMS, Call & Voicemail)<br>
+									</p>
+									<h4><u>System</u></h4>
+									<p>
+										* Smart pixel<br>
+										* Wakelock blocker<br>
+										* Alarm Blocker<br>
+										* Privacy guard<br>
+										* Suspended Actions<br>
+										* Time in state<br>
+										* Doze settings<br>
+										* Sensor block per-package<br>
+										* Pocket detection<br>
+										* ADB notification<br>
+										* Disable FC Notification<br>
+									</p>
+									<h4><u>Xtra Option</u></h4>
+									<p>
+										* System App Remover<br>
+										* Keyboard and IME<br>
+										* App Circle Bar<br>
+										* Screenshot type<br>
+										* Allow Signature spoofing<br>
+										* MediaScanner behavior on boot<br>
+										* Launch music app on headset connection<br>
+										* Wake up on charge<br>
+										* Vibrate on plug/unplug<br>
+										* Dashboard conditions<br>
+										* Dashboard suggestions<br>
+										* Dashboard summaries<br>
+										* Use columns layout<br>
+										* Rounded corner config<br>
+										* Enable scaling<br>
+									</p>
+								</div>	
+                            </div>
+                        </div>
+                    </div>
                 </div>
-        </section>
-</div>
+			</section>
+			<!-- end Service section -->
 
-<a href="mailto:svandasek@seznam.cz, superdroidbond@yahoo.com">
-        <div id="fab"><i class="material-icons md-24 vertical-align-middle padding-bottom-4">mail</i></div>
-</a>
-</main>
-<script type="text/javascript" src="js/main.js"></script>
-        </body>
+			<!-- portfolio section -->
+			<section id="portfolio">
+				<div class="container">
+					<div class="row">
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Download </h2>
+							<p>Available for a wide range of devices with support from developers in forums </p>
+						</div>
+						<ul class="project-wrapper wow animated fadeInUp">
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#asus">
+								<img src="img/portfolio/item2.png" class="img-responsive">
+								<figcaption class="mask">
+									<h3>Asus</h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li>
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#ess">
+								<img src="img/portfolio/item4.png" class="img-responsive" >
+								<figcaption class="mask">
+									<h3>Essential</h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li>
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#lenovo">
+								<img src="img/portfolio/item6.png" class="img-responsive">
+								<figcaption class="mask">
+									<h3>Lenovo</h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li>
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#moto">
+								<img src="img/portfolio/item.png" class="img-responsive" >
+								<figcaption class="mask">
+									<h3>Motorola </h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li>	
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#oneplus">
+								<img src="img/portfolio/item3.png" class="img-responsive" >
+								<figcaption class="mask">
+									<h3>Oneplus</h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li> 
+
+							<li class="portfolio-item" data-toggle="modal" data-target="#mi">
+								<img src="img/portfolio/item5.png" class="img-responsive" >
+								<figcaption class="mask">
+									<h3>Xiaomi</h3>
+									<p>Click the download button to see the devices available </p>
+								</figcaption>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- end portfolio section -->
+			<div class="modal fade" id="asus" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">ASUS</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: Zenfone Max Pro M1</p>
+									<p>CodeName: X00T</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/MaxPro1-X00TD/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/stable-msm-xtended-xp-1-release-v2-t3847306">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: Zenfone Max Pro M2</p>
+									<p>CodeName: X01BD</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/X01BD/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/max-pro-m2/development/stable-msm-xtended-xp8-release-v16-july-t3950089">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="ess" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">Essential</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model:Essential Phone</p>
+									<p>CodeName: mata</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/MaxPro1-X00TD/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/essential-phone/development/msm-xtendedpie-9-0-t3926239">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="lenovo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">Lenovo</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: Lenovo ZUK Z2 Plus</p>
+									<p>CodeName: zuk2</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/zuk2/">Download</a>
+									<a class="btn btn-success" href=" https://forum.xda-developers.com/lenovo-zuk-z2/development/stable-msm-xtended-xp4-release-v8-5-t3882775">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="moto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">Motorola</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: Moto G5 Plus</p>
+									<p>CodeName: Potter</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/potter/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/g5-plus/development/rom-msm-xtended-t3851041">XDA Thread</a>
+								</div>							
+							</div>
+							<br>
+							<hr>
+							<br>
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: Moto G5s Plus</p>
+									<p>CodeName: Sanders</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/sanders/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/moto-g5s-plus/development/rom-msm-xtended-pie-9-0-t3868296">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="oneplus" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">OnePlus</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: OnePlus One </p>
+									<p>CodeName: bacon</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/bacon/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/oneplus-one/development/stable-msm-xtended-xp7-release-v14-t3929224">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: OnePlus 2 </p>
+									<p>CodeName: oneplus2</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/oneplus2/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/oneplus-2/development/stable-msm-xtended-xp6-release-v13-t3925584">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: OnePlus 3/3T</p>
+									<p>CodeName: oneplus3</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/oneplus3/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/cardinal-aosp-5-0-android-8-0-pre-t3693585">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: OnePlus 5 </p>
+									<p>CodeName: cheeseburger </p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/cheeseburger/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="row text-center" >
+								<div class="col-4">
+									<p>Model: OnePlus 5T </p>
+									<p>CodeName: dumpling</p>
+								</div>
+								<div class="col-8">
+									<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/dumpling/">Download</a>
+									<a class="btn btn-success" href="https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938">XDA Thread</a>
+								</div>							
+							</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="mi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<h3 class="modal-title" id="exampleModalCenterTitle" style="text-align: center;">Xiaomi</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr>
+						<div class="modal-body">
+							<div class="modal-body">
+								<div class="row text-center" >
+									<div class="col-4">
+										<p>Model: Redmi 4A </p>
+										<p>CodeName: rolex</p>
+									</div>
+									<div class="col-8">
+										<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/rolex/">Download</a>
+										<a class="btn btn-success" href="https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313">XDA Thread</a>
+									</div>							
+								</div>
+							</div>
+							<hr>
+							<div class="modal-body">
+								<div class="row text-center" >
+									<div class="col-4">
+										<p>Model: Redmi 5A </p>
+										<p>CodeName: riva</p>
+									</div>
+									<div class="col-8">
+										<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/riva/">Download</a>
+										<a class="btn btn-success" href="https://forum.xda-developers.com/xiaomi-redmi-5a/development/rom-project-xtended-redmi5a-t3947852">XDA Thread</a>
+									</div>							
+								</div>
+							</div>
+							<hr>
+							<div class="modal-body">
+								<div class="row text-center" >
+									<div class="col-4">
+										<p>Model: Redmi Note 4 </p>
+										<p>CodeName: mido </p>
+									</div>
+									<div class="col-8">
+										<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/mido/">Download</a>
+										<a class="btn btn-success" href="https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/official-msm-xtended-pie-9-0-t3846001">XDA Thread</a>
+									</div>							
+								</div>
+							</div>
+							<hr>					
+							<div class="modal-body">
+								<div class="row text-center" >
+									<div class="col-4">
+										<p>Model: Redmi Note 5 Pro </p>
+										<p>CodeName: whyred </p>
+									</div>
+									<div class="col-8">
+										<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/whyred/">Download</a>
+										<a class="btn btn-success" href="https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/official-msm-xtended-pie-9-0-t3846001">XDA Thread</a>
+									</div>							
+								</div>
+							</div>
+							<h3><=======================================></h3>
+							<h3 style="text-align: center;">Pocophone</h3>
+							<h3><=======================================></h3>
+							<div class="modal-body">
+								<div class="row text-center" >
+									<div class="col-4">
+										<p>Model: Pocophone F1 </p>
+										<p>CodeName: beryllium </p>
+									</div>
+									<div class="col-8">
+										<a class="btn btn-primary" href="https://sourceforge.net/projects/xtended/files/pocof1/">Download</a>
+										<a class="btn btn-success" href="https://forum.xda-developers.com/poco-f1/development/official-msm-xtended-xp3-release-v7-t3870860">XDA Thread</a>
+									</div>							
+								</div>
+							</div>
+							<hr>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Testimonial section -->
+			<section id="testimonial">
+				<div class="customer-feedback">
+					<div class="container text-center">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<div>
+									<h2 class="section-title">What Users Say</h2>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+								<div class="owl-carousel feedback-slider">
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">bdwilk</h3>
+										<p>Honestly this is one of the most complete ROMs available. It has all the features available without any issues. It has the smoothness and stability of an OEM build. The team is fantastic. They give hands on support and are very interactive with the users. This will definitely be one of my favorite ROMs for quite some time now.</p>
+										<span class="light-bg customer-rating" data-rating="5">5<i class="fa fa-star"></i></span>
+									</div>
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">digigoon</h3>
+										<p>Awesome ROM, got some unique features which are not present in other ROMs, it's the perfect amount of salt on AOSP.</p>
+										<span class="light-bg customer-rating" data-rating="4">4<i class="fa fa-star"></i></span>
+									</div>
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">rizwan</h3>
+										<p>One of the best ROMs out there. Very smooth and battery friendly with lots of customisations. The developers are also friendly, addressing every concern raised by users. Thank you.</p>
+										<span class="light-bg customer-rating" data-rating="5">5<i class="fa fa-star"></i></span>
+									</div>
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">saurabh-l24</h3>
+										<p>Hands down best ROM out there...... loaded with smoothness, features and performance.... Keep going guys... ❤️</p>
+										<span class="light-bg customer-rating" data-rating="5">5<i class="fa fa-star"></i></span>
+									</div>
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">michl</h3>
+										<p>The Rom is stable, smooth, feature rich and battery friendly - in one word: perfect! The Support is also very good and suggested features will be addes if possible! So flash and try out this Rom!</p>
+										<span class="light-bg customer-rating" data-rating="5">5<i class="fa fa-star"></i></span>
+									</div>
+									<div class="feedback-slider-item">
+										<img src="img/member-2.jpg" class="center-block img-circle" alt="Customer Feedback">
+										<h3 class="customer-name">mirkomirko</h3>
+										<p>Very good Rom ! Stable, customizable and smooth. It is very rich of features and the devs are very great, if you have a problem, you can ask on telegram group and you will find the solution. GOOD JOB, continue on this route.</p>
+										<span class="light-bg customer-rating" data-rating="5">5<i class="fa fa-star"></i></span>
+									</div>					
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Testimonial section -->
+			<!-- Team -->
+			<section id="team">
+				<div id="inf-about-us" data-section="team">
+	                <div class="container">
+                        <div class="row contaier " id="about-us">
+                            <div class="col-md-12 section-heading text-center">
+                                <h2 class="to-animate">Meet the team</h2>
+                                <h3 class="to-animate">The team behind MSM Xtended</h3>
+                                <div class="row"></div>
+                                <br><br>
+                            </div>
+                            <div id="persons">
+                            	<div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/rakesh.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Rakesh Batra</h3>
+                                        <div class="position">(rakesh batra)</div>
+                                        <p>Mentor</p>
+                                        <div class="footer-social">
+								            <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/RakeshBatra"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/RakeshBatra"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>    
+							            </div>
+                                    </div>
+                                </div>
+                            	<div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/mukesh.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Mukesh Singh</h3>
+                                        <div class="position">(mukesh22584)</div>
+                                        <p>Customizations Developer, The Cherry-Picker</p>
+                                        <div class="footer-social">
+								            <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/mukesh22584"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/mukesh22584"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>    
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/mady.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">MadhuSudhan Painoori </h3>
+                                        <div class="position">(Mady51)</div>
+                                        <p>Kernel Developer, The OS Boot Manager</p>
+                                        <div class="footer-social">
+								           <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/Mady51"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/mady51"><i class="fab fa-paypal fa-2x"></i></a></li>	
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/bond.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Santosh Jha</h3>
+                                        <div class="position">(SuperDroidBond)</div>
+                                        <p>Base Developer, The UI Changer</p>
+                                        <div class="footer-social">
+								           <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/SuperDroidBond"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/superdroidbond"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/dhanush.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Dhanush Krishanan</h3>
+                                        <div class="position">(Ded_Boi)</div>
+                                        <p>Feature Manager, The Code Puller</p>
+                                        <div class="footer-social">
+								           <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="#"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="#"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/honza.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Honza </h3>
+                                        <div class="position">(svandasek)</div>
+                                        <p>Graphics Organiser, The Image Factory</p>
+                                        <div class="footer-social">
+								           <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/svandasek"><i class="fab fa-telegram fa-2x"></i></a></li>	
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/svandasek"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/member-2.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Danny </h3>
+                                        <div class="position">(mcdachpappe)</div>
+                                        <p>Code Dev, The Code Fixer</p>
+                                        <div class="footer-social">
+								           <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="#"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="#"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/member-2.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Jayant</h3>
+                                        <div class="position">(Jay_B)</div>
+                                        <p>Graphics Organiser, BootAnimator</p>
+                                        <div class="footer-social">
+								            <br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/jay_b"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/deveshree"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>    
+							            </div>
+                                    </div>
+                                </div>
+                                <div class="text-center to-animate">
+                                    <div class="person-item">
+                                        <img height="75" width="75" src="img/icons/anish.jpg" alt="Our Clients" style ="border-radius: 50%;">
+                                        <h3 class="name">Anish Pratheepan</h3>
+                                        <div class="position">(ultranoob)</div>
+                                        <p>Website Mainatiner & Developer</p>
+                                        <div class="footer-social">
+                                        	<br>
+								            <ul>								                
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://t.me/UltraNoob5"><i class="fab fa-telegram fa-2x"></i></a></li>
+								                <li class="wow animated swing" data-wow-delay="0.3s"><a href="https://www.paypal.me/anishpratheepan"><i class="fab fa-paypal fa-2x"></i></a></li>
+								            </ul>
+							            </div>
+                                    </div>
+                                </div>                        
+                            </div>                     
+                        </div>                        
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!-- Button trigger modal -->
+                <div class="text-center">
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-blue btn-effect" data-toggle="modal" data-target="#deviceMainteners">
+                   Device Maintainers
+                   </button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="deviceMainteners" tabindex="-1" role="dialog" aria-labelledby="deviceMainteners" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3 class="modal-title" id="deviceMainteners" style="text-align: center;">Device Maintainers</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <hr style=>
+                                <div class="modal-body">
+                               		<p>
+                                		<img height="75" width="75" src="img/icons/mukesh.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Mukesh Singh aka mukesh22584</h3>
+                                		<p>OnePlus 5 | cheeseburger</p>
+                                		<p>OnePlus 5T | dumpling </p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/mukesh22584">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/mukesh22584">Payal</a>
+										</div>
+                                		<hr>
+                                		<img height="75" width="75" src="img/icons/bond.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Santosh Jha aka SuperDroidBond</h3>
+                                		<p>OnePlus 3 Unified | oneplus3, oneplus3T</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/SuperDroidBond">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/superdroidbond">Paypal</a>
+										</div>
+                                		<hr>
+                                		<img height="75" width="75" src="img/icons/ankan.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Ankan Ghosh aka ankan005</h3>
+                                		<p>Xiaomi Redmi 4A | rolex</p>
+                                		<p>Xiaomi Redmi 5A | riva</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/Ankan005">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/Ankan117">Paypal</a>
+										</div>
+                                		<hr>
+                                		<img height="75" width="75" src="img/icons/wajid.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Wajid Khan aka wajidkh08</h3>
+                                		<p>Pocophone F1 | beryllium</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/waj_08">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+                                		<hr>
+                                		<img height="75" width="75" src="img/icons/aswath.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Sai Krishna aka Sai404142</h3>
+                                		<p>Moto G5s Plus | sanders</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="#">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+                                		<hr>
+                                		<img height="75" width="75" src="img/icons/anish.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Anish Pratheepan aka uLtRaNoOb</h3>
+                                		<p>Moto G5 Plus | potter</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/UltraNoob5">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/anishpratheepan">Paypal</a>
+										</div>
+                                		<hr style=>
+                                		<img height="75" width="75" src="img/icons/fikri.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Muhammad Fikri aka Genkzsz11</h3>
+                                		<p>Asus Zenfone Max Pro M1|X00T </p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/Genkzsz11">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/travarilo">Paypal</a>
+										</div>
+                                		<hr style=>
+                                		<img height="75" width="75" src="img/icons/kanishk.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Kanishka Pattanayak aka prometheusXderpgang </h3>
+                                		<p>Lenovo Z2 Plus | z2_plus </p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/prometheusXderpgang">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+										<hr>
+										<img height="75" width="75" src="img/member-2.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Abhijith S Varma aka abhi</h3>
+                                		<p>Oneplus 2 | oneplus2 </p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/abhijith362">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+										<hr>
+										<img height="75" width="75" src="img/member-2.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Ritesh Majumdar aka Ritzz</h3>
+                                		<p>Redmi Note 5 Pro | whyred </p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/ritzz97">Telegram</a>
+											<a class="btn btn-success" href="https://paypal.me/ritzz97">Paypal</a>
+										</div>
+										<hr>
+										<img height="75" width="75" src="img/member-2.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>hypnz</h3>
+                                		<p>Essential Phone | mata</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/ritzz97">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+										<hr>
+										<img height="75" width="75" src="img/member-2.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Sonal Singh aka Sksbss</h3>
+                                		<p>Asus Zenfone Max Pro M2 | X01BD</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/Sksbss">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+										<hr>
+										<img height="75" width="75" src="img/member-2.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Osama alamoudi aka xawlw</h3>
+                                		<p>Oneplus 1 | bacon</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/xawlw">Telegram</a>
+											<a class="btn btn-success" href="#">Paypal</a>
+										</div>
+										<img height="75" width="75" src="img/icons/sagar.jpg" alt="MSM" style ="border-radius: 50%;">
+                                		<h3>Sagar aka sagar.rokade.982</h3>
+                                		<p>Xiaomi Redmi Note 4 | mido</p>
+                                		<br>
+                                		<div class="col-8">
+											<a class="btn btn-primary" href="https://t.me/Sagarrokade006">Telegram</a>
+											<a class="btn btn-success" href="https://www.paypal.me/sagarrokade006">Paypal</a>
+										</div>
+                                		<hr>
+                                 	</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <!--end team-->
+		</main>
+		<section id="contact">
+			<footer id="footer">
+				<div class="container">
+					<div class="row text-center">
+						<div class="footer-content">					
+							<div class="footer-social">
+								<ul>
+									<li class="wow animated zoomIn"><a href="https://github.com/Project-Xtended"><i class="fab fa-github fa-3x"></i></a></li>
+									<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://t.me/XtendedOfficial"><i class="fab fa-telegram fa-3x"></i></a></li>
+									<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.paypal.me/superdroidbond"><i class="fab fa-paypal fa-3x"></i></a></li>
+									<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://twitter.com/msmxtended"><i class="fab fa-twitter fa-3x"></i></a></li>
+									<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="blog/index.html"><i class="fab fa-blogger-b fa-3x"></i></i></a></li>
+								</ul>
+							</div>							
+							<p>Copyright &copy;2019 Design and Developed By<a href="https://t.me/XtendedOfficial">Team-Xtended</a> </p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Owl Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.ba-cond.min.js"></script>
+		<!-- onscroll animation -->
+        <script src="js/wow.min.js"></script>
+		<!-- Custom Functions -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
